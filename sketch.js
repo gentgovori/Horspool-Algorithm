@@ -8,8 +8,14 @@ var teksti = prompt('Jepni tekstin :');
 var tekstiArray = Array.from(teksti);
 var index = HorsPoolMatching(pattern,teksti);
 
+if(index!=(-1))
+{
 alert('Teksti u gjet ne indeksin: '+index);
-
+}
+else
+{
+    alert('Teksti nuk u gjet!');
+}
 
 
 
