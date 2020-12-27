@@ -1,6 +1,6 @@
 function setup()
 {
-console.log("Jepni tekstin :");
+
 var pattern = prompt('Jepni pattern :');
 var patternArray = Array.from(pattern);
 
